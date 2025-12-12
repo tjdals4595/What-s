@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/logo_comfortogether.png" alt="Comfortogether Logo" width="200"/>
+</p>
+
 # Team Comfortogether: Comfort + Togerther 
 
 Video Recognition-based Application for the Visually Impaired
