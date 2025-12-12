@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 # Created by https://www.toptal.com/developers/gitignore/api/windows,android,androidstudio,flutter,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,android,androidstudio,flutter,python
 
 ### Android ###
+=======
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab
 # Gradle files
 .gradle/
 build/
@@ -35,6 +38,7 @@ google-services.json
 
 # Android Profiling
 *.hprof
+<<<<<<< HEAD
 
 ### Android Patch ###
 gen-external-apklibs
@@ -844,3 +848,5 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,jupyternotebooks
+=======
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab

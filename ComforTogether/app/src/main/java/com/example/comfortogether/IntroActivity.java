@@ -3,6 +3,7 @@ package com.example.comfortogether;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+<<<<<<< HEAD
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -18,23 +19,36 @@ public class IntroActivity extends AppCompatActivity {
 
     ImageView intro_iv;
     private static String Tag_log = "OpenCV Test:";
+=======
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
+
+public class IntroActivity extends AppCompatActivity {
+
+    ImageView intro_iv;
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
 
+<<<<<<< HEAD
         hide_statusbar_navigationbar();
         if (OpenCVLoader.initDebug()){
             Log.d(Tag_log, "OpenCV init");
         } else{
             Log.d(Tag_log, "OpenCV Not Init");
         }
+=======
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab
         intro_iv = findViewById(R.id.intro_iv);
 
         intro_iv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+<<<<<<< HEAD
                 IntentMain();
             }
         });
@@ -119,5 +133,12 @@ public class IntroActivity extends AppCompatActivity {
         int uiOptions = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
                 | View.SYSTEM_UI_FLAG_FULLSCREEN;
         decorView.setSystemUiVisibility(uiOptions);
+=======
+                Intent go_main_intent = new Intent(IntroActivity.this,MainActivity.class);
+                startActivity(go_main_intent);
+                finish();
+            }
+        });
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab
     }
 }

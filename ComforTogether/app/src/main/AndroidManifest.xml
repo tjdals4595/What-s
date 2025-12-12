@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -13,13 +14,21 @@
     <uses-feature android:name="android.hardware.camera2.full" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
     <uses-feature android:name="SYSTEM_UI_FLAG_HIDE_NAVIGATION" />
+=======
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
+<<<<<<< HEAD
         android:icon="@mipmap/logo_2_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/logo_2_launcher_round"
+=======
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab
         android:supportsRtl="true"
         android:theme="@style/Theme.ComforTogether"
         tools:targetApi="31">
@@ -61,6 +70,12 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+<<<<<<< HEAD
 
     </application>
+=======
+    </application>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab
 </manifest>

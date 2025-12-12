@@ -1,6 +1,7 @@
 package com.example.comfortogether;
 
 import androidx.appcompat.app.AppCompatActivity;
+<<<<<<< HEAD
 import androidx.core.app.ActivityCompat;
 
 import android.content.Intent;
@@ -11,20 +12,35 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+=======
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab
 import android.widget.RelativeLayout;
 
 public class MainActivity extends AppCompatActivity {
 
+<<<<<<< HEAD
     LinearLayout go_play_btn;
     LinearLayout go_tuto_btn;
 
     MediaPlayer main_mediaPlayer;
     boolean is_playing;
     private static final int REQUEST_CAMERA_PERMISSION = 1234;
+=======
+    //황성민
+    int a = 0;
+    RelativeLayout go_play_btn;
+    RelativeLayout go_tuto_btn;
+
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
         PlaySound(R.raw.app_start_sound);
         hide_statusbar_navigationbar();
 
@@ -44,11 +60,21 @@ public class MainActivity extends AppCompatActivity {
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
+=======
+
+        go_play_btn = findViewById(R.id.go_play_btn);
+        go_tuto_btn = findViewById(R.id.go_tuto_btn);
+
+        go_play_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab
                 Intent go_main_intent = new Intent(MainActivity.this,PlayActivity.class);
                 startActivity(go_main_intent);
                 //finish();
             }
         });
+<<<<<<< HEAD
         go_tuto_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -58,11 +84,18 @@ public class MainActivity extends AppCompatActivity {
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
+=======
+
+        go_tuto_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab
                 Intent go_tuto_intent = new Intent(MainActivity.this,TutorialActivity.class);
                 startActivity(go_tuto_intent);
                 //finish();
             }
         });
+<<<<<<< HEAD
 
         PlaySound(R.raw.app_start_sound);
     }
@@ -111,4 +144,7 @@ public class MainActivity extends AppCompatActivity {
         decorView.setSystemUiVisibility(uiOptions);
     }
 
+=======
+    }
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab
 }

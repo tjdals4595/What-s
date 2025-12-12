@@ -64,4 +64,8 @@ root
 │     
 └─python  // Image Processing sources 
 │
+<<<<<<< HEAD
 └─ML  // Machine Learning sources
+=======
+└─ML  // Machine Learning sources
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab

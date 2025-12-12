@@ -16,6 +16,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+<<<<<<< HEAD
     packagingOptions {
         pickFirst 'lib/x86/libc++_shared.so'
         pickFirst 'lib/x86_64/libc++_shared.so'
@@ -23,6 +24,8 @@ android {
         pickFirst 'lib/arm64-v8a/libc++_shared.so'
     }
 
+=======
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab
     buildTypes {
         release {
             minifyEnabled false
@@ -39,6 +42,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+<<<<<<< HEAD
     implementation project(path: ':OpenCV')
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
@@ -52,4 +56,9 @@ dependencies {
     implementation 'org.pytorch:pytorch_android_torchvision_lite:1.13.1'
 
     implementation 'com.github.fornewid:neumorphism:0.3.0'
+=======
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab
 }

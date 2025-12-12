@@ -10,9 +10,15 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+<<<<<<< HEAD
         maven { url "https://jitpack.io" }
+=======
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab
     }
 }
 rootProject.name = "ComforTogether"
 include ':app'
+<<<<<<< HEAD
 include ':OpenCV'
+=======
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab

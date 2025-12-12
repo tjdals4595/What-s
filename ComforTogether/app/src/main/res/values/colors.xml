@@ -7,6 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+<<<<<<< HEAD
 
     <color name="dot_dark_screen1">#A5662D</color>
     <color name="dot_dark_screen2">#A5662D</color>
@@ -33,4 +34,6 @@
     </array>
 
     <color name="def">#F6F3F3</color>
+=======
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab
 </resources>

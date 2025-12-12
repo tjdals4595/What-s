@@ -1,6 +1,7 @@
 package com.example.comfortogether;
 
 import androidx.appcompat.app.AppCompatActivity;
+<<<<<<< HEAD
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
@@ -164,4 +165,16 @@ public class TutorialActivity extends AppCompatActivity {
     }
 
 
+=======
+
+import android.os.Bundle;
+
+public class TutorialActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_tutorial);
+    }
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab
 }

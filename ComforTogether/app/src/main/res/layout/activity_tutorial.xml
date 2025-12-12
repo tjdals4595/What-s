@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TutorialActivity"
+<<<<<<< HEAD
     android:orientation="vertical"
     android:background="@color/def">
 
@@ -103,4 +104,14 @@
             android:background="@drawable/rec2"
             android:textColor="@color/black"/>
     </RelativeLayout>
+=======
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="Tutorial Activity"/>
+
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab
 </LinearLayout>

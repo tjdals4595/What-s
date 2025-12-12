@@ -1,4 +1,5 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">What\'s</string>
 
     <!-- 배경 -->
@@ -16,4 +17,7 @@
     <string name="btn_capture">클릭</string>
     <string name="camera_not_found">카메라 기능을 찾을 수 없음</string>
     <string name="take_photo_help">Touch anywhere on screen to take picture</string>
+=======
+    <string name="app_name">ComforTogether</string>
+>>>>>>> bd836432fe8be884db675d1a31c6653000c135ab
 </resources>
